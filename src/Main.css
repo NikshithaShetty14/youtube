@@ -1,0 +1,28 @@
+ol{
+    padding-inline-start:0;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    /* gap: 30px; */
+  
+  
+   li{
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 6px 10px;
+    border-radius: 6px;
+    background-color: #8080801c;
+    
+   }
+}
+li:hover{
+    background-color: rgba(128, 128, 128, 0.76);
+} 
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:18px;
+    padding: 10px; 
+}                                              
